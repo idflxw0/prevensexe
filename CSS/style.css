@@ -1,0 +1,167 @@
+nav ul li a:hover{
+	color:grey;
+}
+
+#Global{
+	display: flex; /*3eme possibiltés */
+	
+}
+#div1, #div2, #div3{ /*"#"pour cibler un id*/
+	border: 50px solid brown;
+	width: 30%;
+	height: 300px;
+	/*1er possibilité: float: left*/
+	/*2eme possibilité:display: inline-block;*/
+}
+#oe{
+	color:black;
+	writing-mode: vertical-rl;
+	text-orientation: sideways;
+}
+
+#ha{
+	color:black;
+	writing-mode: vertical-rl;
+	text-orientation: upright;
+}
+
+#hehe{
+	padding-left: 40%;
+	width:50%;
+}
+
+footer{
+	width: 100%;
+	height: 200px;
+	background-color: grey;
+	/* 1er possibiltés:clear: left */
+}
+#div1{
+		background-color: #25fde9;
+}
+#div2{
+		background-color: #ffff00;
+}
+#div3{
+		background-color: white;
+}
+@media screen and (max-width: 599px){
+	#Global{
+	display: block;
+	}
+	#div1, #div2, #div3{ /*"#"pour cibler un id*/
+		width:100%;
+		height: 200px;
+	}
+	footer{
+	display: none;
+	}
+}
+
+*{
+	padding: 0;
+	margin: 0;
+}
+/* On stylise le boutton d'ouverture du module  */
+.open-button{
+	background-color: #555;
+	color: white;
+	padding: 16px 20px;
+	border: none;
+	cursor: pointer;
+	opacity: 0.8;
+	position: fixed;
+	bottom: 305px;
+	right: 1000px;
+	width: 280px;
+}
+/* On stylise la div qui contient le module  */
+
+
+.form-popup{
+	display: none; 
+	position: fixed;
+	bottom: 100px;
+	right: 500px;
+	border: 3px solid #f1f1f1;
+}
+
+.form-popup2{
+	display: none; 
+	position: fixed;
+	bottom: 500px;
+	right: 500px;
+	border: 3px solid #f1f1f1;
+}
+
+.form-popup3{
+	display: none; 
+	position: fixed;
+	bottom: 700px;
+	left: 200px;
+	border: 3px solid #f1f1f1;
+}
+.form-popup4{
+	display: none; 
+	position: fixed;
+	bottom: 200px;
+	left: 200px;
+	border: 3px solid #f1f1f1;
+}
+
+.form-popup5{
+	display: none; 
+	position: fixed;
+	bottom: 100px;
+	left: 500px;
+	border: 3px solid #f1f1f1;
+}
+.form-popup6{
+	display: none; 
+	position: fixed;
+	bottom: 800px;
+	left: 600px;
+	border: 3px solid #f1f1f1;
+}
+
+	/* On stylise le module */
+.form-container{
+	max-width: 300px;
+	padding: 10px;
+	background-color: white;
+}
+/* On stylise les champs input */
+.form-container input [type=text],.form-container input [type=text]{
+	width: 90px;
+	padding: 15px;
+	margin: 5px 0 22px 0;
+	background-color: #f1f1f1;
+	border: none;
+}
+.form-container input [type=text]:focus,.form-container input [type=text]:focus{
+	background-color: lightblue;
+	outline: none;
+}
+.form-container .btn{
+	background-color:#4CAF50;
+	color: white;
+	padding: 16px 20px;
+	border: none;
+	width: 100%;
+	margin-bottom: 10px;
+	opacity: 0.8;
+}
+.form-container .cancel-btn{
+	background-color: red;
+	color: white;
+	padding: 16px 20px;
+	border: none;
+	width: 100%;
+	margin-bottom: 10px;
+	opacity: 0.8;
+}
+.open-button:hover, .btn:hover, .cancel-btn:hover{
+	opacity: 0;
+	color: red;
+}		
+	

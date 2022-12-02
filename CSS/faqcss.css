@@ -1,0 +1,31 @@
+img{
+	width : 80px;
+}
+.container {
+	margin-top: 30px;
+	max-width: 150%;
+}
+footer {
+	width: auto;
+	padding: 20px;
+	background-color: black;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+footer h3 {
+	color: #dd23a7;
+}
+footer p {
+	cursor: pointer;
+	color: #ccc;
+}
+footer p:hover {
+	color: white;
+}
+.Réseaux a {
+	color: lightgrey;
+	text-decoration: none;
+}
+.Réseaux a:hover {
+	color: white;
+}

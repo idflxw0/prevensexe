@@ -1,4 +1,4 @@
-azdosection {
+section {
     border: 1px solid lightgray;
     margin: 30px 100px 0 100px;
     padding-left: 20px;
@@ -6,7 +6,9 @@ azdosection {
     border-radius: 20px;
     box-shadow: 5px 5px 25px darkgray;
 }
-
+img{
+	width : 80px;
+}
 h2 {
     padding-top: 2%;
 }
@@ -30,4 +32,29 @@ h2 {
 .lienSection:target {
 
     background-color: #73C2FB;
+}
+
+footer {
+	width: auto;
+	padding: 20px;
+	background-color: black;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+footer h3 {
+	color: #dd23a7;
+}
+footer p {
+	cursor: pointer;
+	color: #ccc;
+}
+footer p:hover {
+	color: white;
+}
+.Réseaux a {
+	color: lightgrey;
+	text-decoration: none;
+}
+.Réseaux a:hover {
+	color: white;
 }
